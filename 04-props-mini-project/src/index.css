@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+
+  background-color: azure;
+  height: 100%;
+  width: 100%;
+}
+.parent{
+  background-color: rgb(169, 116, 134);
+  width: 100%;
+  min-height: 100vh;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card{
+  padding: 25px;
+  height: 300px;
+  width: 230px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top img{
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.8px solid #dadada;
+  padding: 2px;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #dadada;
+  padding: 10px 0;
+}
+
+.centre{
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.centre h4 span{
+  margin: 5px;
+  font-size: 10px;
+  color:#8b8b8b ;
+  
+}
+
+.tag{
+  margin: 5px;
+  display: flex;
+  gap: 20px;
+}
+.tag h5{
+
+  background-color: #bab2b2;
+  font-size: 12px;
+  color: black;
+  padding: 3px;
+  border-radius: 3px;
+
+}
+.centre h3{
+  font-size: 16px;
+}
+
+.bottom button{
+  background-color: rgba(0, 0, 0, 0.897);
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+}
+.bottom p{
+  font-size: 13px;
+  color: #8b8b8b;
+}
+.bottom h3{
+  font-size: 15px;
+}
