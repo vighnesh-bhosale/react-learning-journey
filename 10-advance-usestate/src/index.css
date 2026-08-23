@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  width: fit-content;
+  background-color: cadetblue;
+  color: black;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 3px;
+}
