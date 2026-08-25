@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,input{
+  text-align: center;
+  margin: 10px;
+  gap: 5px;
+  background-color: aquamarine;
+  color: black;
+  border-radius: 5px;
+  padding: 4px;
+  width: fit-content;
+}
+h2{
+  margin-bottom: 30px;
+}
+.parent{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  margin-left: 60px;
+}
+input{
+  margin-left: 20px;
+}
